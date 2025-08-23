@@ -1,0 +1,19 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ .container {
+     background: #1f24;
+     display: grid;
+     grid-template-columns: auto auto auto;
+     gap: 20px;
+ }
+
+ .container>div {
+     border: 2px solid;
+     border-radius: 6px;
+     padding: 25px;
+     text-align: center;
+ }
