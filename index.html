@@ -1,14 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            background: #1f24;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            gap: 20px;
+        }
+
+        .container>div {
+            border: 2px solid;
+            border-radius: 6px;
+            padding: 25px;
+            text-align: center;
+        }
+    </style>
 </head>
+
 <body>
-    <h2>header</h2>
-    <h1>heading1</h1>
-    <p>paragrah1</p>
-    <p>paragrah2</p>
+    <div class="container">
+        <div class="header">1</div>
+        <div class="header">2</div>
+        <div class="header">3</div>
+        <div class="header">4</div>
+        <div class="header">5</div>
+        <div class="header">6</div>
+        <div class="header">7</div>
+        <div class="header">8</div>
+        <div class="header">9</div>
+    </div>
 </body>
+
 </html>
